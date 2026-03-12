@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simulation-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simulation-api
+  template:
+    metadata:
+      labels:
+        app: simulation-api
+    spec:
+      containers:
+        - name: api
+          image: simulation-api:latest
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: REDIS_HOST
+              value: redis
+          ports:
+            - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: simulation-api
+spec:
+  selector:
+    app: simulation-api
+  ports:
+    - port: 8000
+      targetPort: 8000
+      nodePort: 30082
+  type: NodePort
+

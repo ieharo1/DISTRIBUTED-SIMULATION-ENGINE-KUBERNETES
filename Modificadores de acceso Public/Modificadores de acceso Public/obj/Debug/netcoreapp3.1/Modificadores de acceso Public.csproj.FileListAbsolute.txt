@@ -1,3 +1,0 @@
-C:\Users\Scrappy Doo Coco\OneDrive - Pontificia Universidad Católica del Ecuador\Repositorio\practicas poo isaac\Modificadores de acceso Public\Modificadores de acceso Public\obj\Debug\netcoreapp3.1\Modificadores de acceso Public.csprojAssemblyReference.cache
-C:\Users\Scrappy Doo Coco\OneDrive - Pontificia Universidad Católica del Ecuador\Repositorio\practicas poo isaac\Modificadores de acceso Public\Modificadores de acceso Public\obj\Debug\netcoreapp3.1\Modificadores de acceso Public.AssemblyInfoInputs.cache
-C:\Users\Scrappy Doo Coco\OneDrive - Pontificia Universidad Católica del Ecuador\Repositorio\practicas poo isaac\Modificadores de acceso Public\Modificadores de acceso Public\obj\Debug\netcoreapp3.1\Modificadores de acceso Public.AssemblyInfo.cs
